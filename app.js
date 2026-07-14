@@ -39,7 +39,7 @@ function publicHome() {
         <section class="hero">
           <div class="container hero-grid">
             <div><span class="eyebrow">Bimbingan Matematika SD, SMP & SMA</span><h1>Matematika Lebih Mudah, Belajar Lebih Terarah</h1><p class="lead">Pendampingan belajar Matematika melalui kelas privat maupun kelompok, secara tatap muka dan online, dengan perkembangan yang dapat dipantau orang tua.</p><div class="hero-actions"><button class="btn" onclick="toast('Formulir pendaftaran akan dibuka')">Daftar Sekarang</button><a class="btn outline" href="#program">Lihat Program</a></div></div>
-            <div class="math-card"><div class="book"></div></div>
+            <div class="hero-photo"><img src="hero-kelas.png" alt="Siswa Ardiyani StudyClub sedang belajar Matematika"></div>
           </div>
         </section>
         <section class="section" id="program"><div class="container"><div class="section-head"><h2>Program Belajar</h2><p>Materi disesuaikan dengan jenjang dan kebutuhan setiap siswa.</p></div><div class="grid-3">${["SD","SMP","SMA"].map((x,i)=>`<article class="card"><div class="program-icon">${["✏","📘","🎓"][i]}</div><h3>Matematika ${x}</h3><p>${["Membangun konsep dasar Matematika dengan cara yang mudah dipahami.","Memperkuat pemahaman konsep dan keterampilan menyelesaikan soal.","Pendalaman materi, strategi ujian, dan persiapan pendidikan lanjutan."][i]}</p></article>`).join("")}</div></div></section>
